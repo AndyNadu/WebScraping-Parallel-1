@@ -11,17 +11,8 @@ Ca limbaj de programare am folosit Python, unde am importat anumite librarii:
   - Matlotlib (pentru grafice / mesaje text de afisare)
   - Requests (pentru apelarea unui url)
   - Concurrent.Futures pentru paralelizare
-  - report.lab.pagesizes, report.platypus, reportlab.lib.styles pentru crearea, stilizarea fisierului pdf 
-Time (pentru calcularea timpilor)
-
-  -Re (pentru regex)
-
-Beautifoul soup (pentru extragerea datelor)
-
-Matlotlib (pentru grafice / mesaje text de afisare)
-
-Requests (pentru apelarea unui url)
-
+  - report.lab.pagesizes, report.platypus, reportlab.lib.styles pentru crearea, stilizarea fisierului pdf
+    
 Masina de pe care am rulat aplicatia are urmatoarele caracteristici:
   - Procesor: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz 2.80 GHz
   - Placa video integrata
