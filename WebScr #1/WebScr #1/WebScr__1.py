@@ -1,11 +1,12 @@
 ﻿import requests
 import re
 from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 import matplotlib.pyplot as plt
+import asyncio
+import aiohttp
 
 def parse_data(html):
     soup = BeautifulSoup(html, 'html.parser')
