@@ -10,7 +10,7 @@ Ca limbaj de programare am folosit Python, unde am importat anumite librarii:
   - Beautifoul soup (pentru extragerea datelor)
   - Matlotlib (pentru grafice / mesaje text de afisare)
   - Requests (pentru apelarea unui url)
-  - Concurrent.Futures pentru paralelizare
+  - asyncio, aiohttp (pentru paralelizare)
   - report.lab.pagesizes, report.platypus, reportlab.lib.styles pentru crearea, stilizarea fisierului pdf
     
 Masina de pe care am rulat aplicatia are urmatoarele caracteristici:
